@@ -38,8 +38,6 @@ eksctl create cluster --name demo-eks --region ap-south-1 --nodegroup-name my-no
 
 eksctl get cluster --name demo-eks --region ap-south-1
 
-eksctl get cluster --name demo-eks --region ap-south-1
-
 This should confirm that EKS cluster is up and running.
 
 Update Kube config by entering below command:
